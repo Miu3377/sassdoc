@@ -1,0 +1,19 @@
+/// @mixin button-style
+/// @param {string} $color 設定按鈕顏色
+/// @output 背景顏色將被設定為指定的顏色
+/// @access public
+@mixin button-style($color) {
+    background-color: $color;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /// @function calculate-rem
+  /// @param {number} $px 設定的像素值
+  /// @param {number} $base 基準字型大小
+  /// @return 計算出來的 rem 值
+  /// @access public
+  @function calculate-rem($px, $base: 16) {
+    @return $px / $base * 1rem;
+  }
+  

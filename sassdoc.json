@@ -1,0 +1,10 @@
+{
+    "verbose": true,
+    "theme": "default",
+    "basePath": "https://github.com/yourusername/my-sassdoc-project/blob/main/src/scss",
+    "exclude": ["**/*.spec.scss"],
+    "sass": {
+      "includePaths": ["./node_modules"]
+    }
+  }
+  
